@@ -1,10 +1,10 @@
 <?php
 
-use App\Http\Controllers\KategoriController;
-use App\Http\Controllers\GenreController;
-use App\Http\Controllers\AktorController;
-use App\Http\Controllers\FilmController;
-use App\Http\Controllers\AuthController;
+use App\Http\Controllers\Api\KategoriController;
+use App\Http\Controllers\Api\GenreController;
+use App\Http\Controllers\Api\AktorController;
+use App\Http\Controllers\Api\FilmController;
+use App\Http\Controllers\Api\AuthController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
