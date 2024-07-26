@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\KategoriController;
 use App\Http\Controllers\GenreController;
-use App\Http\Controllers\ActorController;
+use App\Http\Controllers\AktorController;
 use App\Http\Controllers\FilmController;
 use App\Http\Controllers\AuthController;
 use Illuminate\Http\Request;
@@ -32,7 +32,7 @@ Route::middleware(['auth:sanctum'])->group(function() {
     Route::post('logout', [AuthController::class, 'logout']);
     Route::resource('kategori', KategoriController::class);
     Route::resource('genre', GenreController::class);
-    Route::resource('actor', ActorController::class);
+    Route::resource('aktor', AktorController::class);
     Route::resource('film', FilmController::class);
 });
 
